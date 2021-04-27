@@ -17,6 +17,7 @@ public class jdbcTesting {
 		ResultSet rs=s.executeQuery(Query);
 		while(rs.next())
 		System.out.println(rs.getString("uname"));
+		System.out.println(rs.getString("password"));
 
 	}
 
